@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+ Navbar Section 
+ */
+
+.navitems button {
+  all: unset;
+  cursor: pointer;
+}
+
+.navitems button:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: white;
+}
+
+/* 
+Jumbo Section 
+*/
+
+.jumbo-button {
+  all: unset;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+}
+
+.jumbo-button:hover {
+  border: 2px solid white;
+  color: orange;
+}
+
+.availability {
+  all: unset;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.availability:hover {
+  color: orange;
+}
+
+/* 
+About Section 
+*/
+
+.about-button {
+  all: unset;
+  color: white;
+  background-color: orange;
+  display: inline;
+}
+
+.about-button:hover {
+  background-color: orangered;
+}
+
+.about-1 {
+  width: 50%;
+}
+
+.about-2 {
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: 170px;
+}
+
+.about-3 {
+  width: 40%;
+
+  position: absolute;
+  top: 50px;
+  right: 25px;
+}
+
+/* 
+Rooms Section 
+*/
+
+.room1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.room1-rating {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.room2 {
+  position: relative;
+}
+
+.room2-rating {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.room3 {
+  position: relative;
+}
+
+.room3-rating {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.room1-button {
+  all: unset;
+  color: white;
+  background-color: black;
+}
+
+.room1-button:hover {
+  color: orange;
+}
+
+/* 
+packages Section 
+*/
+
+.packages-button {
+  all: unset;
+  background-color: black;
+  color: white;
+}
+
+.packages-button:hover {
+  color: orange;
+}
+
+/* 
+Spa Section 
+*/
+
+.spa-button {
+  all: unset;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.spa-button:hover {
+  border: 2px solid orangered;
+  color: orangered;
+}
+
+/* 
+Blog Section 
+*/
+
+.blog1-button {
+  all: unset;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.blog1-button:hover {
+  border: 2px solid orangered;
+  color: orangered;
+}
+
+.blog2-button {
+  all: unset;
+  color: white;
+  background-color: black;
+  max-width: 100%;
+}
+
+/* 
+Newsletter Section 
+*/
+
+.signup-button {
+  all: unset;
+  color: white;
+  background-color: orange;
+}
+
+.signup-button:hover {
+  background-color: orangered;
+}
+
+.social-button {
+  all: unset;
+}
+
+.social-button:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+   Navbar Section 
+   */
+
+.navitems button {
+  all: unset;
+  cursor: pointer;
+}
+
+.navitems button:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: white;
+}
+
+/* 
+Newsletter Section 
+*/
+
+.signup-button {
+  all: unset;
+  color: white;
+  background-color: orange;
+}
+
+.signup-button:hover {
+  background-color: orangered;
+}
+
+.social-button {
+  all: unset;
+}
+
+.social-button:hover {
+  transform: scale(1.2);
+}
+
+/* 
+Main Section 
+*/
+
+.tag {
+  all: unset;
+  color: #9fa6b2;
+  border: 2px solid #9fa6b2;
+}
+
+.tag:hover {
+  color: orange;
+  border: 2px solid orange;
+}
+
+.reply {
+  all: unset;
+  color: white;
+  background-color: black;
+}
+
+.submit {
+  all: unset;
+  color: white;
+  background-color: orange;
+}
