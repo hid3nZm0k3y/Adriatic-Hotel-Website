@@ -18,12 +18,12 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="container-fluid">
     <!-- Header Section -->
     <section>
         <div class="container">
           <div class="row d-flex justify-content-between align-items-center pt-1">
-            <div class="col-5 d-flex gap-4">
+            <div class="col-12 col-md-5 mb-3 mb-md-0 d-flex gap-4">
               <p class="text-secondary">US</p>
               <p class="text-secondary">IT</p>
               <p class="text-secondary">PS</p>
@@ -37,7 +37,7 @@
               </div>
             </div>
   
-            <div class="col-5 d-flex gap-4 mb-0 align-items-center">
+            <div class="col-12 col-md-5 mb-3 mb-md-0 d-flex gap-4 align-items-center">
               <p class="text-secondary">Add Your Review</p>
               <div class="text-secondary h3" style="position: relative">
                 <img
@@ -84,26 +84,55 @@
       </section>
   
       <!-- Navbar Section -->
-      <section>
+      <section >
         <div class="container">
           <div class="nav navbar bg-dark">
-              <div class="col text-center">
+              <div class="col-6 col-md-4 text-center">
             <a href="#" class="navbar-brand"
               ><img src="assets/img (82).png" alt=""
             /></a>
             <p class="text-light">Luxury Hotel</p>
           </div>
   
-          <div class="col navitems d-flex gap-4">
-              <a href="#" style="text-decoration: none;" class="text-light">Home</a>
-              <a href="#rooms" style="text-decoration: none;" class="text-light">Rooms</a>
-              <a href="#rooms" style="text-decoration: none;" class="text-light">Single Room</a>
-              <a href="#rooms" style="text-decoration: none;" class="text-light">Booking</a>
-              <a href="#blog" style="text-decoration: none;" class="text-light">Our News</a>
-              <a href="#newsletter" style="text-decoration: none;" class="text-light">Contact</a>
-  
-  
+          <div class="col-6 col-md-8 navitems d-none d-md-block text-center">
+              <a href="#" style="text-decoration: none;" class="text-light pe-3">Home</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Rooms</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Single Room</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Booking</a>
+              <a href="#blog" style="text-decoration: none;" class="text-light pe-3">Our News</a>
+              <a href="#newsletter" style="text-decoration: none;" class="text-light pe-3">Contact</a>
+
           </div>
+
+          <button class="navbar-toggler border border-secondary d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" >
+            <span class="navbar-toggler-icon navbar-dark"></span>
+          </button>
+
+          <div class="collapse" id="navbarToggle" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">                
+                    <a href="#" style="text-decoration: none;" class="text-light">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Single Room</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#blog" style="text-decoration: none;" class="text-light">Our News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#newsletter" style="text-decoration: none;" class="text-light">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            
         </div>
       </section>
 
@@ -125,7 +154,7 @@
 
 
             <div class="row d-flex justify-content-center align-items-start mt-5">
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class="card" style="width: 100%;">
                         <img class="card-img-top" src="assets/img (164).png" alt="Card image cap">
                         <div class="card-body">
@@ -143,7 +172,7 @@
                         <span class="h5">Check New Events</span>
                       </button>
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class=" card blog3 text-center">
                         <img class="card-img" src="assets/img (149).png" alt="">
 
@@ -172,7 +201,7 @@
                       </div>
                     
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class=" card blog4 text-center">
                         <img class="card-img" src="assets/img (135).png" alt="">
 
@@ -218,7 +247,7 @@
     <section id="newsletter">
         <div class="container p-5" style="background-color: #333;">
             <div class="row">
-                <div class="col-4 text-center">
+                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
                     <h5 class="text-white">Current Weather</h5>
                     <p class="text-secondary">NEW YORK, UNITED STATES</p>
                     <div class="d-flex gap-3 justify-content-center">
@@ -226,7 +255,7 @@
                         <h4 class="fw-bold text-white">16 <sup class="text-secondary">&deg; C</sup></h4>
                     </div>
                 </div>
-                <div class="col-4  text-center">
+                <div class="col-12 col-md-4  text-center mb-5 mb-md-0">
                     <h5 class="text-white">Connect With Us</h5>
                     <p class="text-secondary">SOCIAL MEDIA CHANNELS</p>
                     <div class="d-flex gap-3 justify-content-center">
@@ -248,7 +277,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 mb-5 mb-md-0 text-center">
                     <h5 class="text-white">Newsletter</h5>
                     <p class="text-secondary">SIGN UP FOR SPECIAL OFFERS</p>
                     <div class="signup">
@@ -264,13 +293,43 @@
     <!-- Footer Section -->
     <section>
         <div class="container bg-dark">
-            <div class="row py-3 text-center">
-            <div class="col d-flex gap-3 justify-content-center">
-                <a href="#" class="text-white" style="text-decoration: none;">Home</a>
-                <a href="#about" class="text-white" style="text-decoration: none;">About Us</a>
-                <a href="#spa" class="text-white" style="text-decoration: none;">Services</a>
-                <a href="#rooms" class="text-white" style="text-decoration: none;">Booking</a>
-                <a href="#newsletter" class="text-white" style="text-decoration: none;">Contact</a>
+            <div class="row py-3 text-center ">
+
+              <button class="navbar-toggler mb-3 d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#footerToggle" >
+                <span class="navbar-toggler-icon navbar-dark"></span>
+              </button>
+    
+              <div class="collapse" id="footerToggle" data-bs-theme="dark">
+                <div class="bg-dark p-4">
+    
+                    <ul class="navbar-nav">
+                      <li class="nav-item">                
+                        <a href="#" style="text-decoration: none;" class="text-light">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#about" class="text-white pe-3" style="text-decoration: none;">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#spa" class="text-white pe-3" style="text-decoration: none;">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#rooms" class="text-white pe-3" style="text-decoration: none;">Booking</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="#newsletter" class="text-white pe-3" style="text-decoration: none;">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="col justify-content-center d-none d-md-block">
+                <a href="#" class="text-white pe-3" style="text-decoration: none;">Home</a>
+                <a href="#about" class="text-white pe-3" style="text-decoration: none;">About Us</a>
+                <a href="#spa" class="text-white pe-3" style="text-decoration: none;">Services</a>
+                <a href="#rooms" class="text-white pe-3" style="text-decoration: none;">Booking</a>
+                <a href="#newsletter" class="text-white pe-3" style="text-decoration: none;">Contact</a>
             </div>
 
             <div class="col">

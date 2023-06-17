@@ -21,110 +21,139 @@
   <body>
     <!-- Header Section -->
     <section>
-      <div class="container">
-        <div class="row d-flex justify-content-between align-items-center pt-1">
-          <div class="col-5 d-flex gap-4">
-            <p class="text-secondary">US</p>
-            <p class="text-secondary">IT</p>
-            <p class="text-secondary">PS</p>
-            <div class="text-secondary ms-3">
-              <img src="assets/img (97).png" alt="" />
-              Payment Options
-            </div>
-            <div class="text-secondary">
-              <img src="assets/img (95).png" alt="" />
-              Terms &amp; Conditions
-            </div>
-          </div>
-
-          <div class="col-5 d-flex gap-4 mb-0 align-items-center">
-            <p class="text-secondary">Add Your Review</p>
-            <div class="text-secondary h3" style="position: relative">
-              <img
-                src="assets/img (90).png"
-                alt=""
-                style="width: 24px"
-                class="mb-2"
-              />
-              <p
-                class="text-white bg-warning px-1"
-                style="
-                  font-size: 14px;
-                  display: inline;
-                  position: absolute;
-                  top: 0;
-                  right: -10px;
-                "
-              >
-                2
-              </p>
-            </div>
-
-            <p class="text-secondary">My Bookings</p>
-
-            <div class="bg-warning d-flex row">
-              <div
-                class="col text-center d-flex align-items-center justify-content-center"
-              >
-                <img src="assets/img (87).png" alt="" style="width: 35px" />
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center pt-1">
+            <div class="col-12 col-md-5 mb-3 mb-md-0 d-flex gap-4">
+              <p class="text-secondary">US</p>
+              <p class="text-secondary">IT</p>
+              <p class="text-secondary">PS</p>
+              <div class="text-secondary ms-3">
+                <img src="assets/img (97).png" alt="" />
+                Payment Options
               </div>
-              <div
-                class="col d-flex flex-column justify-content-center"
-                style="width: 120px"
-              >
-                <p class="text-white fw-bold mb-0" style="font-size: 10px">
-                  My Account
+              <div class="text-secondary">
+                <img src="assets/img (95).png" alt="" />
+                Terms &amp; Conditions
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-5 mb-3 mb-md-0 d-flex gap-4 align-items-center">
+              <p class="text-secondary">Add Your Review</p>
+              <div class="text-secondary h3" style="position: relative">
+                <img
+                  src="assets/img (90).png"
+                  alt=""
+                  style="width: 24px"
+                  class="mb-2"
+                />
+                <p
+                  class="text-white bg-warning px-1"
+                  style="
+                    font-size: 14px;
+                    display: inline;
+                    position: absolute;
+                    top: 0;
+                    right: -10px;
+                  "
+                >
+                  2
                 </p>
-                <p class="text-white mt-0" style="font-size: 10px">Log In</p>
+              </div>
+  
+              <p class="text-secondary">My Bookings</p>
+  
+              <div class="bg-warning d-flex row">
+                <div
+                  class="col text-center d-flex align-items-center justify-content-center"
+                >
+                  <img src="assets/img (87).png" alt="" style="width: 35px" />
+                </div>
+                <div
+                  class="col d-flex flex-column justify-content-center"
+                  style="width: 120px"
+                >
+                  <p class="text-white fw-bold mb-0" style="font-size: 10px">
+                    My Account
+                  </p>
+                  <p class="text-white mt-0" style="font-size: 10px">Log In</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+  
+      <!-- Navbar Section -->
+      <section >
+        <div class="container">
+          <div class="nav navbar bg-dark">
+              <div class="col-6 col-md-4 text-center">
+            <a href="#" class="navbar-brand"
+              ><img src="assets/img (82).png" alt=""
+            /></a>
+            <p class="text-light">Luxury Hotel</p>
+          </div>
+  
+          <div class="col-6 col-md-8 navitems d-none d-md-block text-center">
+              <a href="#" style="text-decoration: none;" class="text-light pe-3">Home</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Rooms</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Single Room</a>
+              <a href="#rooms" style="text-decoration: none;" class="text-light pe-3">Booking</a>
+              <a href="#blog" style="text-decoration: none;" class="text-light pe-3">Our News</a>
+              <a href="#newsletter" style="text-decoration: none;" class="text-light pe-3">Contact</a>
 
-    <!-- Navbar Section -->
-    <section>
-      <div class="container">
-        <div class="nav navbar bg-dark">
-            <div class="col text-center">
-          <a href="#" class="navbar-brand"
-            ><img src="assets/img (82).png" alt=""
-          /></a>
-          <p class="text-light">Luxury Hotel</p>
+          </div>
+
+          <button class="navbar-toggler border border-secondary d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" >
+            <span class="navbar-toggler-icon navbar-dark"></span>
+          </button>
+
+          <div class="collapse" id="navbarToggle" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">                
+                    <a href="#" style="text-decoration: none;" class="text-light">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Single Room</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#rooms" style="text-decoration: none;" class="text-light">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#blog" style="text-decoration: none;" class="text-light">Our News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#newsletter" style="text-decoration: none;" class="text-light">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            
         </div>
-
-        <div class="col navitems d-flex gap-4">
-            <a href="#" style="text-decoration: none;" class="text-light">Home</a>
-            <a href="#rooms" style="text-decoration: none;" class="text-light">Rooms</a>
-            <a href="#rooms" style="text-decoration: none;" class="text-light">Single Room</a>
-            <a href="#rooms" style="text-decoration: none;" class="text-light">Booking</a>
-            <a href="#blog" style="text-decoration: none;" class="text-light">Our News</a>
-            <a href="#newsletter" style="text-decoration: none;" class="text-light">Contact</a>
-
-
-        </div>
-      </div>
-    </section>
+      </section>
 
     <!-- Jumbotron Section -->
     <section class="jumbo">
         <div class="container">
             <div class="row d-flex justify-content-center" style="background-color: #999; height: 600px;">
-                <div class="col-10 text-center d-flex flex-column gap-1">
+                <div class="col-12 col-md-10 text-center d-flex flex-column gap-1">
                     <div class="col mt-5">
                         <p class="text-light">LUXURY HOTEL &amp; BEST RESORT</p>
                         <hr class="text-white" style="width:30px; margin: auto;">
                     </div>
                     
                     <div class="col">
-                        <img src="assets/img (71).png" alt="" style="flex-grow: 0;"> 
+                        <img src="assets/img (71).png" alt="" style="flex-grow: 0; width: 55%;" class=""> 
                     </div>
                     <div class="col">
                         <button class="jumbo-button mt-5">ROOMS &amp; SUITES</button>
                     </div>
 
-                    <div class="col d-flex bg-white mx-auto mb-5" style="width: 600px;">
+                    <div class="col d-flex bg-white mx-auto mb-5" style="width: 55%;">
                         <div class="col  text-center">
                             <p class="text-secondary mt-2 ">Check In</p>
                             <div class="row ">
@@ -181,14 +210,15 @@
     <section class="about" id="about"> 
         <div class="container">
             <div class="row m-5">
-                <div class="col-6 text-center d-flex flex-column gap-4">
+                <div class="col-12 col-md-6 text-center d-flex flex-column gap-4">
                     <div class="d-flex justify-content-center">
                         <p class="text-secondary me-3">HOTEL BAYVIEW</p>
                         <img src="assets/img (50).png" alt="" style="width: 20px; height: 20px;">
                         <img src="assets/img (50).png" alt="" style="width: 20px; height: 20px;">
                         <img src="assets/img (50).png" alt="" style="width: 20px; height: 20px;">
                     </div>
-                    <div class="col">                    <img src="assets/img (46).png" alt="">
+                    <div class="col">                    
+                        <img src="assets/img (46).png" alt="" style="width: 100%;">
                     </div>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Commodi quis quam dolorem! Magni placeat itaque error, laboriosam magnam fugit 
@@ -198,7 +228,7 @@
                         </div>
 
                 </div>
-                <div class="col-6 text-center" style="position: relative;">
+                <div class="col-12 col-md-6 mt-4 me-mt-0 text-center" style="position: relative;">
                     <img src="assets/img (41).png" alt="" class="about-1">
                     <img src="assets/img (42).png" alt="" class="about-2">
                     <img src="assets/img (43).png" alt="" class="about-3 border border-2 border-primary">
@@ -217,7 +247,7 @@
             <img src="assets/img (38).png" alt="">
 
             <div class="row mt-5 text-center d-flex">
-                <div class="col-5 me-5">
+                <div class="col-12 col-md-5 me-5">
             <div class="room1">
                 
                     <img src="./assets/img (30).png" alt="" class="">
@@ -238,7 +268,7 @@
                 </div>
             </div>
             
-                <div class="col-3">
+                <div class="col-12 col-md-3 me-5 me-md-0">
                     <div class="room2">
                         <img src="./assets/img (3).png" alt="" class="">
                         <div class="col d-flex align-items-center justify-content-center room2-rating">
@@ -253,7 +283,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-12 col-md-3">
                     <div class="room3">
                         <img src="./assets/img (3).png" alt="" class="">
                         <div class="col d-flex align-items-center justify-content-center room3-rating">
@@ -271,7 +301,7 @@
             </div>
 
             <div class="row text-center d-flex">
-                <div class="col-5 me-5">
+                <div class="col-12 col-md-5 me-5">
             <div class="room1 bg-white">
                 <div class="row d-flex flex-column gap-3 p-4">
 
@@ -302,7 +332,7 @@
                 </div>
                     </div>
                 </div>
-                <div class="col-3 mt-5">
+                <div class="col-12 col-md-3 mt-5 me-5 me-md-0">
                     <div class="room2">
                         <img src="./assets/img (3).png" alt="" class="">
                         <div class="col d-flex align-items-center justify-content-center room2-rating">
@@ -317,7 +347,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 mt-5">
+                <div class="col-12 col-md-3 mt-5">
                     <div class="room3">
                         <img src="./assets/img (3).png" alt="" class="">
                         <div class="col d-flex align-items-center justify-content-center room3-rating">
@@ -343,7 +373,7 @@
     <section class="mt-5" id="packages">
         <div class="container">
             <div class="row">
-                <div class="col-6 d-flex flex-column">
+                <div class="col-12 col-md-6 d-flex flex-column">
                         <div class="col d-flex" style="overflow: hidden;"> 
                             <img src="assets/img (204).png" alt="" style="width: 50%;">
                             <img src="assets/img (205).png" alt="" style="width: 50%;">
@@ -355,7 +385,7 @@
         
                 </div>
                 
-                <div class="col-6 bg-dark d-flex flex-column p-5">
+                <div class="col-12 col-md-6 bg-dark d-flex flex-column p-5">
                     <p class="text-white">LUXURY HOTEL &amp; BEST RESORT</p>
                     <div class="col">                    
                         <img src="assets/img (202).png" alt="">
@@ -380,7 +410,7 @@
     <section>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-6 text-center p-5">
+                <div class="col-12 col-md-6 text-center p-5">
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quisquam rerum aliquid culpa dolorem, illum fugiat asperiores 
                         accusantium deserunt laboriosam neque laborum aliquam corporis similique libero.</h5>
@@ -394,8 +424,9 @@
     <section id="spa">
         <div class="container bg-light p-5">
             <div class="row d-flex justify-content-center">
-                <div class="col-10 d-flex justify-content-center">
-                    <div class="col-5 bg-white pt-3 px-3">
+
+                <div class="col-10 col-md-10 d-md-flex justify-content-center">
+                    <div class="col-12 col-md-5 bg-white pt-3 px-3">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             
                             <div class="carousel-indicators">
@@ -423,16 +454,18 @@
                         </div>                   
                           </div>
 
-                          <div class="col-5">
+                          <div class="col-12 col-md-5">
                             <img src="assets/img (186).png" alt="" style="width: 100%;">
                         </div>
                     </div>
-                    <div class="col-10 d-flex justify-content-center">
 
-                        <div class="col-5">
+
+                    <div class="col-10 col-md-10 d-md-flex justify-content-center">
+
+                        <div class="col-12 col-md-5">
                             <img src="assets/img (186).png" alt="" style="width: 100%;">
                         </div>
-                        <div class="col-5 bg-white pt-3 px-3">
+                        <div class="col-12 col-md-5 bg-white pt-3 px-3">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 
                                 <div class="carousel-indicators">
@@ -472,7 +505,7 @@
     <section id="video">
         <div class="container bg-secondary">
             <div class="row d-flex justify-content-center">
-                <div class="col-6 d-flex flex-column text-center gap-3 p-5">
+                <div class="col-12 col-md-6 d-flex flex-column text-center gap-3 p-5">
                     <div>
                         <img src="assets/img (172).png" alt="">
                     </div>
@@ -485,8 +518,8 @@
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section id="blog">
+     <!-- Blog Section -->
+     <section id="blog">
         <div class="container bg-secondary-subtle text-center pb-5">
             <p class="text-secondary pt-5">HOTEL NEWS</p>
             <hr class="text-secondary mx-auto" style="width: 30px;">
@@ -494,7 +527,7 @@
 
 
             <div class="row d-flex justify-content-center align-items-start mt-5">
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class="card" style="width: 100%;">
                         <img class="card-img-top" src="assets/img (164).png" alt="Card image cap">
                         <div class="card-body">
@@ -512,7 +545,7 @@
                         <span class="h5">Check New Events</span>
                       </button>
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class=" card blog3 text-center">
                         <img class="card-img" src="assets/img (149).png" alt="">
 
@@ -541,7 +574,7 @@
                       </div>
                     
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center gap-3">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center gap-3 mb-5 mb-md-0">
                     <div class=" card blog4 text-center">
                         <img class="card-img" src="assets/img (135).png" alt="">
 
@@ -587,7 +620,7 @@
     <section id="newsletter">
         <div class="container p-5" style="background-color: #333;">
             <div class="row">
-                <div class="col-4 text-center">
+                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
                     <h5 class="text-white">Current Weather</h5>
                     <p class="text-secondary">NEW YORK, UNITED STATES</p>
                     <div class="d-flex gap-3 justify-content-center">
@@ -595,7 +628,7 @@
                         <h4 class="fw-bold text-white">16 <sup class="text-secondary">&deg; C</sup></h4>
                     </div>
                 </div>
-                <div class="col-4  text-center">
+                <div class="col-12 col-md-4  text-center mb-5 mb-md-0">
                     <h5 class="text-white">Connect With Us</h5>
                     <p class="text-secondary">SOCIAL MEDIA CHANNELS</p>
                     <div class="d-flex gap-3 justify-content-center">
@@ -617,7 +650,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 mb-5 mb-md-0 text-center">
                     <h5 class="text-white">Newsletter</h5>
                     <p class="text-secondary">SIGN UP FOR SPECIAL OFFERS</p>
                     <div class="signup">
@@ -633,13 +666,43 @@
     <!-- Footer Section -->
     <section>
         <div class="container bg-dark">
-            <div class="row py-3 text-center">
-            <div class="col d-flex gap-3 justify-content-center">
-                <a href="#" class="text-white" style="text-decoration: none;">Home</a>
-                <a href="#about" class="text-white" style="text-decoration: none;">About Us</a>
-                <a href="#spa" class="text-white" style="text-decoration: none;">Services</a>
-                <a href="#rooms" class="text-white" style="text-decoration: none;">Booking</a>
-                <a href="#newsletter" class="text-white" style="text-decoration: none;">Contact</a>
+            <div class="row py-3 text-center ">
+
+              <button class="navbar-toggler mb-3 d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#footerToggle" >
+                <span class="navbar-toggler-icon navbar-dark"></span>
+              </button>
+    
+              <div class="collapse" id="footerToggle" data-bs-theme="dark">
+                <div class="bg-dark p-4">
+    
+                    <ul class="navbar-nav">
+                      <li class="nav-item">                
+                        <a href="#" style="text-decoration: none;" class="text-light">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#about" class="text-white pe-3" style="text-decoration: none;">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#spa" class="text-white pe-3" style="text-decoration: none;">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#rooms" class="text-white pe-3" style="text-decoration: none;">Booking</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="#newsletter" class="text-white pe-3" style="text-decoration: none;">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="col justify-content-center d-none d-md-block">
+                <a href="#" class="text-white pe-3" style="text-decoration: none;">Home</a>
+                <a href="#about" class="text-white pe-3" style="text-decoration: none;">About Us</a>
+                <a href="#spa" class="text-white pe-3" style="text-decoration: none;">Services</a>
+                <a href="#rooms" class="text-white pe-3" style="text-decoration: none;">Booking</a>
+                <a href="#newsletter" class="text-white pe-3" style="text-decoration: none;">Contact</a>
             </div>
 
             <div class="col">
